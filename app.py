@@ -23,7 +23,7 @@ def convert_to_raw_link(shared_link):
 
 # নির্দিষ্ট প্যাটার্ন অনুযায়ী ফাইলের নাম তৈরি করার ফাংশন
 def generate_filename(extension):
-    pattern = "XXOO-OOXX-X0X0-XXX0-000X"
+    pattern = "XXOO-OOXX-XOXO-XXXO-OOOX"
     filename = ""
     
     for char in pattern:
@@ -35,7 +35,6 @@ def generate_filename(extension):
             filename += char  # ড্যাস (-) রেখে দাও
     
     return filename + extension
-
 # লিংক সংরক্ষণ ফাংশন
 def save_link_to_json(filename, local_url, dropbox_url):
     json_file = "links.json"
