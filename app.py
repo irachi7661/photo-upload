@@ -162,7 +162,7 @@ def ping():
 
 # keep_alive ফাংশন
 def keep_alive():
-    url = "https://your-app-url.com/ping"  # আপনার এপ্লিকেশনের URL দিয়ে পরিবর্তন করুন
+    url = "https://photo-upload-production-cd8b.up.railway.app/ping"  # আপনার এপ্লিকেশনের URL দিয়ে পরিবর্তন করুন
     while True:
         time.sleep(300)
         try:
